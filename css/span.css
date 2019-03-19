@@ -1,0 +1,12 @@
+.red {
+    color: red;
+}
+
+#HTMLelement {
+    font-size: 24pt;
+    font-family: fantasy;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-color: blue;
+    border-bottom-width: 1px;
+}
