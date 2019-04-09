@@ -1,0 +1,16 @@
+body {
+    font-family: cursive;
+}
+
+#navbar {
+    background-color: #CAEBF2;
+}
+
+.center {
+    text-align: center;
+}
+
+#col {
+    background-color: #EFEFEF;
+    margin: 5px;
+}
