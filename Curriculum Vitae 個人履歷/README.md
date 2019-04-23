@@ -1,6 +1,6 @@
 # Template Used
-[Link](https://themewagon.com/themes/free-responsive-html5-personal-portfolio-website-template-dimension/)
-[Link](https://themewagon.com/themes/free-responsive-html5-portfolio-website-template-paradigm-shift/)
+[https://themewagon.com/themes/free-responsive-html5-personal-portfolio-website-template-dimension/]
+[https://themewagon.com/themes/free-responsive-html5-portfolio-website-template-paradigm-shift/]
 
 # Personal Work
 ## index.html page
