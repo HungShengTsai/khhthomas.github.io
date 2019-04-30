@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript：質數判斷練習</title>
+    <!-- 引用Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- 自己的CSS -->
+    <link rel="stylesheet" href="./css/prime.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 style="font-family:cursive"> 質數判斷</h1>
+        </div>
+        <!-- Bootstrap表格 -->
+        <form>
+            <div class="form-group">
+                <!-- label對應到的文字方塊會顯示在for裡面 -->
+                <label for="Input">請輸入一個整數</label>
+                <!-- input type="number" for numerical information-->
+                <input type="number" class="form-control" id="Input" aria-describedby="Help" placeholder="輸入整數">
+                <small id="Help" class="form-text text-muted">請輸入一個整數，程式會判斷是否為質數</small>
+            </div>
+            <button id="RunCheck" type="button" class="btn btn-primary">判斷</button>
+            <!-- 加入一顯示結果的文字方塊：textarea-->
+            <div class="form-group">
+                <label for="output">判斷結果</label>
+                <textarea class="form-control" id="output" rows="3"></textarea>
+            </div>
+        </form>
+
+        <!-- 註腳（作者，日期......） -->
+        <footer>
+            <div class="text-center">
+                2019
+                <!-- 宣告版權 -->
+                &copy; khhthomas@NTU
+            </div>
+        </footer>
+
+    </div>
+    <!-- 引用Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- 引用自己的JS -->
+    <script src="./js/prime.js"></script>
+</body>
+
+</html>
