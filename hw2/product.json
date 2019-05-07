@@ -1,0 +1,16 @@
+{
+    "result": true,
+    "data": [{
+            "name": "小米路由器",
+            "price": 399,
+            "count": 1,
+            "image": "http://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1490332273.78529474.png?width=160&height=160"
+        },
+        {
+            "name": "米家全景相機",
+            "price": 7995,
+            "count": 1,
+            "image": "http://i01.appmifile.com/f/i/g/2016overseas/mijiaquanjingxiangji800.png?width=160&height=160"
+        }
+    ]
+}
