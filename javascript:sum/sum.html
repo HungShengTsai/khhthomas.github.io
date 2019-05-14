@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>求總合及平均</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- 引入我們自己寫的 CSS -->
+    <link rel="stylesheet" href="./css/sum.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>求總合及平均</h1>
+        </div>
+
+        <div class="form-group row">
+
+            <div class="col">
+                <label for="example-number-input" class="col-form-label">請輸入數字</label>
+                <input class="form-control" type="number" value="5" id="input-text">
+            </div>
+        </div>
+        <button id="input" type="button" class="btn btn-primary">輸入</button>
+        <button id="clear" type="button" class="btn btn-primary">清除目前數字</button>
+        <div class="row" id="data">
+            <div class="col-1">
+                <div class="item">1</div>
+            </div>
+            <div class="col-1">
+                <div class="item">2</div>
+            </div>
+            <div class="col-1">
+                <div class="item">3</div>
+            </div>
+            <div class="col-1">
+                <div class="item">4</div>
+            </div>
+            <div class="col-1">
+                <div class="item">5</div>
+            </div>
+        </div>
+
+        <button id="compute" type="button" class="btn btn-primary">計算</button>
+        <div class="form-group row">
+            <label for="example-number-input" class="col-2 col-form-label">總合</label>
+            <div class="col-10">
+                <input class="form-control" type="number" id="result-sum">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="example-number-input" class="col-2 col-form-label">平均</label>
+            <div class="col-10">
+                <input class="form-control" type="number" id="result-avg">
+            </div>
+        </div>
+        <!-- 註腳（作者，日期......） -->
+        <footer>
+            <div class="text-center">
+                2019
+                <!-- 宣告版權 -->
+                &copy; khhthomas@NTU
+            </div>
+        </footer>
+    </div>
+
+
+
+    <!-- 引入 Bootstrap 的 JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- 引入我們自己寫的 JavaScript -->
+    <script src="./js/sum.js"></script>
+</body>
+
+</html>

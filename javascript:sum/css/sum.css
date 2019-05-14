@@ -1,0 +1,41 @@
+* {
+    font-family: cursive
+}
+
+.jumbotron {
+    background-color: #3F51B5;
+    color: white;
+}
+
+footer {
+    margin-top: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #9E9E9E;
+    padding-top: 25px;
+    color: #908f8f;
+}
+
+.col-1 {
+    margin-right: 5px;
+}
+
+.item {
+    border-style: solid;
+    border-width: 1px;
+    width: 40px;
+    text-align: -webkit-center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    background-color: #81D4FA;
+    border-color: #03A9F4;
+    border-radius: 20px;
+    box-shadow: inset -2px -2px 4px 0px #00557b;
+    padding-bottom: 3px;
+}
+
+div#data {
+    min-height: 59px;
+    height: auto;
+}
