@@ -1,0 +1,104 @@
+* {
+    font-family: cursive
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.jumbotron {
+    background-color: #3F51B5;
+    color: white;
+}
+
+footer {
+    margin-top: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #9E9E9E;
+    padding-top: 25px;
+    color: #908f8f;
+}
+
+.name {
+    font-size: 14px;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
+    color: #212121;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.price {
+    color: #ff6709;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.image {
+    width: 160px;
+    height: 160px;
+    margin-top: 0px;
+    margin-bottom: 22px;
+    margin-left: 37px;
+    margin-right: 37px;
+}
+
+
+/* 原本item的css */
+
+.item {
+    position: relative;
+    border: none;
+    background: #fff;
+    text-align: center;
+    background-clip: border-box;
+    background-image: none;
+    background-origin: padding-box;
+    margin-left: 14px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding-top: 34px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/* CSS動畫 */
+
+
+/* 當滑鼠移上去時，會浮起來：採用hover效果 */
+
+.item:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    -webkit-transform: translate3d(0, -2px, 0);
+    transform: translate3d(0px, -5px, 0);
+    /* 動畫開始與滑鼠移上去時的秒數差異 */
+    transition-delay: 0s;
+    /* 動畫持續時間 */
+    transition-duration: 0.2s;
+    transition-property: all;
+    /* 浮起動畫的變化是線性的 */
+    transition-timing-function: linear;
+}
+
+button:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    -webkit-transform: translate3d(0, -1px, 0);
+    transform: translate3d(0px, -5px, 0);
+    /* 動畫開始與滑鼠移上去時的秒數差異 */
+    transition-delay: 0s;
+    /* 動畫持續時間 */
+    transition-duration: 0.1s;
+    transition-property: all;
+    /* 浮起動畫的變化是線性的 */
+    transition-timing-function: linear;
+}
