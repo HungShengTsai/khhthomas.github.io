@@ -26,14 +26,16 @@
 * 使分頁功能得以執行（運用$(this)）
 * 使上一頁、下一頁功能得以執行（運用.parent()、.children()、.prev()、.next()）
 * 發現老師上課筆記中index.js的一個bug:(詳見社團貼文（fb名稱：湯瑪士))
-在幫點擊的分頁加上active的時候，發現最後一頁沒辦法跟前面幾頁一樣如期運行。
 ```
+在幫點擊的分頁加上active的時候，發現最後一頁沒辦法跟前面幾頁一樣如期運行。
 檢查原始碼後發現，點擊最後一頁的時候會出現一個Uncaught TypeError: Cannot read property 'image' of undefined
 原本以為是自己code的問題，所以我用老師上傳的電商前端應用code來試，好像仍有一樣的問題。
+```
+
+```
 (bug原因：
 老師上課中，函式showItem的code如下
-```
-```
+
 #showItem code
 var start = (page - 1) * pageCount
 var end = start + pageCount - 1
