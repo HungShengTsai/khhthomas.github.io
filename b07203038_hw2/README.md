@@ -8,7 +8,7 @@
 ***
 ## index.html,index.css
 * 自製封面圖片 [cover-bg](./img/cover-bg.png)
-* 自製Carousel圖片 [carousel01](./img.carousel01.png) , [carousel02](./img.carousel02.png)
+* 自製Carousel圖片 [carousel01](./img/carousel01.png) , [carousel02](./img/carousel02.png)
 * 使用Bootstrap Carousel，贈加商品網真實度
 * 更改上方標籤頁縮圖（使用favicon功能）
 * 自製button樣式,並加上動畫（使用hover效果）（詳見 [index.css](./css/index.css) )
