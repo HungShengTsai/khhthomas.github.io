@@ -5,7 +5,6 @@
 [https://codepen.io/ElmiraMukhamedjanova/pen/XGazrK] (只使用其中的CSS)
 ***
 # Personal Work
-***
 ## index.html,index.css
 * 自製封面圖片 [cover-bg](./img/cover-bg.png)
 * 自製Carousel圖片 [carousel01](./img/carousel01.png) , [carousel02](./img/carousel02.png)
