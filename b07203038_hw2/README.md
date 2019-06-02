@@ -31,12 +31,14 @@
 原本以為是自己code的問題，所以我用老師上傳的電商前端應用code來試，好像仍有一樣的問題。
 (bug原因：
 老師上課中，函式showItem的code如下
+
 ····#showItem code
 ····var start = (page - 1) * pageCount
 ····var end = start + pageCount - 1
 ····for (var i = start; i <= end; i++) {
 ····            newItem(items[i])
 ····       })
+
 由於前面定義的end會跑到無窮大，故i會跑不完，就會一直從資料庫撈資料，導致最後一頁出錯（抓不到item.image）無法加上active
 *註：最後感謝洪瑋佑同學debug~(詳見社團貼文)*                                                                )
 
