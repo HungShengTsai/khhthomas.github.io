@@ -4,16 +4,16 @@
 # Code Reference
 [https://codepen.io/ElmiraMukhamedjanova/pen/XGazrK] (只使用其中的CSS)
 ***
-#Personal Work
+# Personal Work
 ***
-##index.html,index.css
+## index.html,index.css
 * 自製封面圖片 [cover-bg](./img/cover-bg.png)
 * 自製Carousel圖片 [carousel01](./img.carousel01.png) , [carousel02](./img.carousel02.png)
 * 使用Bootstrap Carousel，贈加商品網真實度
 * 更改上方標籤頁縮圖（使用favicon功能）
 * 自製button樣式,並加上動畫（使用hover效果）（詳見 [index.css](./css/index.css) )
 
-##addition.html,addition.css
+## addition.html,addition.css
 * 修改 [additionMain.js](./js/additionMain.js) 使封面圖片與其動畫消失，並讓Navbar在滾動頁面時維持同個顏色與樣式
 * 修改輸入資料格子的編框顏色 (詳見 [addition.css](./css/addition.css))
 * 插入圖片檔及文字圖片檔設計版面
@@ -21,7 +21,7 @@
 * 使用CSS使圖片置中
 * 自製button樣式,並加上動畫（使用hover效果）（詳見 [addition.css](./css/addition.css) )
 
-##index.js,addition.js (這裡只記錄老師上課筆記以外的部分)
+## index.js,addition.js (這裡只記錄老師上課筆記以外的部分)
 * 去除index.js中的查詢按鈕的功能，畫面一載入就展示商品
 * 使分頁功能得以執行（運用$(this)）
 * 使上一頁、下一頁功能得以執行（運用.parent()、.children()、.prev()、.next()）
