@@ -1,0 +1,87 @@
+h5,
+p {
+    font-family: cursive
+}
+
+img {
+    /* 圖片水平置中 */
+    display: block;
+    margin: auto;
+}
+
+.container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+footer {
+    margin-top: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #9E9E9E;
+    padding-top: 25px;
+    color: #908f8f;
+}
+
+label {
+    font-family: cursive
+}
+
+#inputProductName,
+#inputProductPrice,
+#inputProductCount,
+#inputProductImage {
+    border-color: #ff6709;
+}
+
+#product-form {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#question-mark {
+    height: 150px;
+    width: 150px;
+}
+
+#insert {
+    background-color: transparent;
+    border-color: #ff6709;
+    color: #ff6709;
+    border-radius: 5px;
+}
+
+#insert:hover {
+    /* 動畫開始與滑鼠移上去時的秒數差異 */
+    transition-delay: 0s;
+    /* 動畫持續時間 */
+    transition-duration: 0.2s;
+    transition-property: all;
+    /* 浮起動畫的變化是線性的 */
+    transition-timing-function: linear;
+    background-color: #ff6709;
+    border-color: #ff6709;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+#button {
+    background-color: transparent;
+    border-color: #ff6709;
+    color: #ff6709;
+    border-radius: 5px;
+}
+
+#button:hover {
+    /* 動畫開始與滑鼠移上去時的秒數差異 */
+    transition-delay: 0s;
+    /* 動畫持續時間 */
+    transition-duration: 0.2s;
+    transition-property: all;
+    /* 浮起動畫的變化是線性的 */
+    transition-timing-function: linear;
+    background-color: #ff6709;
+    border-color: #ff6709;
+    color: #ffffff;
+    border-radius: 5px;
+}

@@ -1,0 +1,198 @@
+h5,
+p {
+    font-family: cursive
+}
+
+footer {
+    margin-top: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #9E9E9E;
+    padding-top: 25px;
+    color: #908f8f;
+}
+
+.name {
+    font-size: 14px;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
+    color: #212121;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.price {
+    color: #ff6709;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.image {
+    width: 160px;
+    height: 160px;
+    margin-top: 0px;
+    margin-bottom: 22px;
+    margin-left: 37px;
+    margin-right: 37px;
+}
+
+button {
+    background-color: transparent;
+    border-color: #ff6709;
+    color: #ff6709;
+    border-radius: 5px;
+}
+
+button:hover {
+    /* 動畫開始與滑鼠移上去時的秒數差異 */
+    transition-delay: 0s;
+    /* 動畫持續時間 */
+    transition-duration: 0.2s;
+    transition-property: all;
+    /* 浮起動畫的變化是線性的 */
+    transition-timing-function: linear;
+    background-color: #ff6709;
+    border-color: #ff6709;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+
+/* 原本item的css */
+
+.item {
+    position: relative;
+    border: none;
+    background: #f7f7f7;
+    text-align: center;
+    background-clip: border-box;
+    background-image: none;
+    background-origin: padding-box;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 34px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/* CSS動畫 */
+
+
+/* 當滑鼠移上去時，會浮起來：採用hover效果 */
+
+.item:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    -webkit-transform: translate3d(0, -2px, 0);
+    transform: translate3d(0px, -5px, 0);
+    /* 動畫開始與滑鼠移上去時的秒數差異 */
+    transition-delay: 0s;
+    /* 動畫持續時間 */
+    transition-duration: 0.2s;
+    transition-property: all;
+    /* 浮起動畫的變化是線性的 */
+    transition-timing-function: linear;
+    background: #fff;
+}
+
+
+/* Pagination */
+
+#page-number {
+    margin: 0 0 3.75rem;
+    font-size: 0;
+    text-align: center;
+}
+
+.page-item {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin: 0 2px;
+}
+
+.page-item.active .page-link {
+    background-color: #ff6709;
+    border-color: #ff6709;
+    color: #fff;
+    text-decoration: none;
+}
+
+.page-item-prev svg,
+.page-item-next svg {
+    width: 8px;
+    height: 12px;
+}
+
+.page-item-next .page-link svg {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+}
+
+.page-link {
+    position: relative;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    width: 2.625rem;
+    height: 2.625rem;
+    line-height: 2.625rem;
+    margin-left: -1px;
+    color: #2f3640;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.page-link:hover,
+.page-link:focus,
+.page-link:active {
+    background-color: #ff6709;
+    border-color: #ff6709;
+    color: #fff;
+    text-decoration: none;
+}
+
+.page-link:hover svg path,
+.page-link:focus svg path,
+.page-link:active svg path {
+    fill: #fff;
+}
+
+#page-number .page-item.active+.page-item .page-link,
+#page-number .page-item:hover+.page-item .page-ink {
+    border-left-color: #ff6709;
+}
+
+@media screen and (max-width: 576px) {
+    .page-item {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .page-item.active,
+    .page-item:first-of-type,
+    .page-item:last-of-type,
+    .page-item:nth-of-type(2),
+    .page-item:nth-last-of-type(2) {
+        position: initial;
+        top: initial;
+        left: initial;
+    }
+    .page-item.active+li {
+        position: initial;
+        top: initial;
+        left: initial;
+    }
+}
