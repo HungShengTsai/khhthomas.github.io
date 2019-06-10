@@ -1,0 +1,66 @@
+h2 {
+    font-size: 40px;
+    color: #fff;
+}
+
+h3 {
+    font-size: 36px;
+    color: #fff;
+}
+
+.name {
+    font-size: 20px;
+    font-family: cursive;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.image {
+    width: 160px;
+    height: 160px;
+    margin-top: 0px;
+    margin-bottom: 22px;
+    margin-left: 37px;
+    margin-right: 37px;
+}
+
+.item {
+    position: relative;
+    border: none;
+    background: #6f2b95;
+    text-align: center;
+    background-clip: border-box;
+    background-image: none;
+    background-origin: padding-box;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 34px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.item:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    -webkit-transform: translate3d(0, -2px, 0);
+    transform: translate3d(0px, -5px, 0);
+    /* 動畫開始與滑鼠移上去時的秒數差異 */
+    transition-delay: 0s;
+    /* 動畫持續時間 */
+    transition-duration: 0.2s;
+    transition-property: all;
+    /* 浮起動畫的變化是線性的 */
+    transition-timing-function: linear;
+    background: #b01ba5;
+}
+
+#restaurantListHead {
+    margin-bottom: 25px
+}

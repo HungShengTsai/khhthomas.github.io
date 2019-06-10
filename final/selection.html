@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>餐廳選擇</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="EndGam Gaming Magazine Template">
+    <meta name="keywords" content="endGam,gGaming, magazine, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/slicknav.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+
+    <!-- Main Stylesheets -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./css/selection.css">
+    <link rel="stylesheet" href="./css/restaurantList.css">
+
+
+    <!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header section -->
+    <header class="header-section">
+        <div class="header-warp">
+            <div class="header-bar-warp d-flex">
+                <!-- site logo -->
+                <a href="#" class="site-logo">
+                    <img src="./images/logo.png" alt="">
+                </a>
+                <nav class="top-nav-area w-75">
+                    <!-- Menu -->
+                    <ul class="main-menu">
+                        <li><a href="./index.html">首頁</a></li>
+                        <li><a href="restaurantLists/restaurantList.html">餐廳總覽</a></li>
+                        <li><a style="color: #b01ba5">餐廳選擇</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header section end -->
+
+
+    <!-- Hero section -->
+    <section class="hero-section overflow-hidden" id="selection">
+        <div class="hero-slider owl-carousel">
+            <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="images/rice.jpg">
+                <div class="container">
+                    <h3 style="color: black">今天想吃......</h3>
+                    <h2 style="color: black">飯類</h2>
+                    <br>
+                    <a href="#" class="site-btn" id="riceselect">選擇</a>
+                </div>
+            </div>
+            <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="images/noodle.jpg">
+                <div class="container">
+                    <h3>今天想吃......</h3>
+                    <h2>麵類</h2>
+                    <br>
+                    <a href="#" class="site-btn" id="noodleselect">選擇</a>
+                </div>
+            </div>
+            <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="images/other.jpg">
+                <div class="container">
+                    <h3>今天想吃......</h3>
+                    <h2>其他類別</h2>
+                    <br>
+                    <button id="otherselect">選擇</button>
+                </div>
+            </div>
+            <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="images/beverage.jpg">
+                <div class="container">
+                    <h2 style="color: black">飲料</h2>
+                    <br>
+                    <button id="beverageselect">選擇</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Hero section end-->
+
+    <section class="blog-page">
+        <div class="container">
+            <div class="row" id="restaurant-list">
+                <!-- Rice -->
+                <div class="col-5"></div>
+                <div class="col-*" id="rice1">
+                    <a href="./restaurantHtml/restaurant.rice01.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice01.jpg" alt="">
+                            <h3 class="name">鳳城臘味家 (百合店)</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice2">
+                    <a href="./restaurantHtml/restaurant.rice02.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice02.jpg" alt="">
+                            <h3 class="name">鳳城燒臘粵菜</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice3">
+                    <a href="./restaurantHtml/restaurant.rice03.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice03.jpg" alt="">
+                            <h3 class="name">柒食貳</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice4">
+                    <a href="./restaurantHtml/restaurant.rice04.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice04.jpg" alt="">
+                            <h3 class="name">蠶居</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice5">
+                    <a href="./restaurantHtml/restaurant.rice05.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice05.jpg" alt="">
+                            <h3 class="name">豪香熱炒</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice6">
+                    <a href="./restaurantHtml/restaurant.rice06.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice06.jpg" alt="">
+                            <h3 class="name">七里亭</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice7">
+                    <a href="./restaurantHtml/restaurant.rice07.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice07.jpg" alt="">
+                            <h3 class="name">YU POKE-夏威夷生魚飯</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice8">
+                    <a href="./restaurantHtml/restaurant.rice08.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice08.jpg" alt="">
+                            <h3 class="name">山丼</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice9">
+                    <a href="./restaurantHtml/restaurant.rice09.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice09.jpg" alt="">
+                            <h3 class="name">蔥丼</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice10">
+                    <a href="./restaurantHtml/restaurant.rice10.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice10.jpg" alt="">
+                            <h3 class="name">狂愛咖哩 Just Love Curry</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice11">
+                    <a href="./restaurantHtml/restaurant.rice11.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice11.jpg" alt="">
+                            <h3 class="name">大盛豬排專門店</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice12">
+                    <a href="./restaurantHtml/restaurant.rice12.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice12.jpg" alt="">
+                            <h3 class="name">すき家Sukiya 公館店</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice13">
+                    <a href="./restaurantHtml/restaurant.rice13.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice13.jpg" alt="">
+                            <h3 class="name">壹森泰食堂~師大第一腿 (公館店)</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice14">
+                    <a href="./restaurantHtml/restaurant.rice14.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice14.jpg" alt="">
+                            <h3 class="name">祥記號美食小吃</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice15">
+                    <a href="./restaurantHtml/restaurant.rice15.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice15.jpg" alt="">
+                            <h3 class="name">竹の丼飯屋</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice16">
+                    <a href="./restaurantHtml/restaurant.rice16.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice16.jpg" alt="">
+                            <h3 class="name">蕭家傳統小吃</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice17">
+                    <a href="./restaurantHtml/restaurant.rice17.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice17.jpg" alt="">
+                            <h3 class="name">嘉義雞肉飯</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice18">
+                    <a href="./restaurantHtml/restaurant.rice18.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice18.jpg" alt="">
+                            <h3 class="name">季丼屋</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice19">
+                    <a href="./restaurantHtml/restaurant.rice19.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice19.jpg" alt="">
+                            <h3 class="name">找碗</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice20">
+                    <a href="./restaurantHtml/restaurant.rice20.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice20.jpg" alt="">
+                            <h3 class="name">叮叮食堂</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice21">
+                    <a href="./restaurantHtml/restaurant.rice21.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice21.jpg" alt="">
+                            <h3 class="name">珍品味泰式炭烤 (師大第一腿)</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice23">
+                    <a href="./restaurantHtml/restaurant.rice23.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice23.jpg" alt="">
+                            <h3 class="name">Curry Kitchen咖哩廚房</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice24">
+                    <a href="./restaurantHtml/restaurant.rice24.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice24.jpg" alt="">
+                            <h3 class="name">笑嘻嘻港式現炒飯麵</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice25">
+                    <a href="./restaurantHtml/restaurant.rice25.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice25.jpg" alt="">
+                            <h3 class="name">七里亭Bar·茶飲簡餐</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="rice26">
+                    <a href="./restaurantHtml/restaurant.rice26.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/rice26.jpg" alt="">
+                            <h3 class="name">初牛 (公館店)</h3>
+                        </div>
+                    </a>
+                </div>
+
+
+
+
+
+                <!-- Noodle -->
+                <div class="col-5"></div>
+                <div class="col-*" id="noodle1">
+                    <a href="./restaurantHtml/restaurant.noodle01.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/noodle01.jpg" alt="">
+                            <h3 class="name">發現義大利麵</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="noodle2">
+                    <a href="./restaurantHtml/restaurant.noodle02.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/noodle02.jpg" alt="">
+                            <h3 class="name">二八麵堂</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="noodle3">
+                    <a href="./restaurantHtml/restaurant.noodle03.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/noodle03.jpg" alt="">
+                            <h3 class="name">四面八方</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="noodle4">
+                    <a href="./restaurantHtml/restaurant.noodle04.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/noodle04.jpg" alt="">
+                            <h3 class="name">一品日式拉麵專門店</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="noodle5">
+                    <a href="./restaurantHtml/restaurant.noodle05.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/noodle05.jpg" alt="">
+                            <h3 class="name">玉欣珍傳統美食坊</h3>
+                        </div>
+                    </a>
+                </div>
+
+
+
+
+                <!-- Others -->
+                <div class="col-5"></div>
+                <div class="col-*" id="other1">
+                    <a href="./restaurantHtml/restaurant.other01.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/other01.jpg" alt="">
+                            <h3 class="name">鍋in 百元風味火鍋</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="other2">
+                    <a href="./restaurantHtml/restaurant.other02.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/other02.jpg" alt="">
+                            <h3 class="name">溏老鴨平價小火鍋</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="other3">
+                    <a href="./restaurantHtml/restaurant.other03.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/other03.jpg" alt="">
+                            <h3 class="name">幸福殿美味食堂</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="other4">
+                    <a href="./restaurantHtml/restaurant.other04.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/other04.jpg" alt="">
+                            <h3 class="name">馬辣頂級麻辣鴛鴦火鍋</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="other5">
+                    <a href="./restaurantHtml/restaurant.other05.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/other05.jpg" alt="">
+                            <h3 class="name">SUBWAY</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="other6">
+                    <a href="./restaurantHtml/restaurant.other06.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/other06.jpg" alt="">
+                            <h3 class="name">麥當勞</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="other7">
+                    <a href="./restaurantHtml/restaurant.other07.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/other07.jpg" alt="">
+                            <h3 class="name">肯德基</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="other8">
+                    <a href="./restaurantHtml/restaurant.other08.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/other08.jpg" alt="">
+                            <h3 class="name">比薩 — 瑪莉珍比薩</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="other9">
+                    <a href="./restaurantHtml/restaurant.other09.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/other09.jpg" alt="">
+                            <h3 class="name">炒麵飯 — 日本清華軒</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="other10">
+                    <a href="./restaurantHtml/restaurant.other10.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/other10.jpg" alt="">
+                            <h3 class="name">鐵板燒 — 大埔鐵板燒 (公館店)</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="other11">
+                    <a href="./restaurantHtml/restaurant.other11.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/other11.jpg" alt="">
+                            <h3 class="name">江浙料理 — 曉鹿鳴樓</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="other12">
+                    <a href="./restaurantHtml/restaurant.other12.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/other12.jpg" alt="">
+                            <h3 class="name">地中海菜 — Greek GO! 希臘左巴</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="other13">
+                    <a href="./restaurantHtml/restaurant.other13.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/other13.jpg" alt="">
+                            <h3 class="name">俄羅斯餐廳 — 俄羅斯城堡</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="other14">
+                    <a href="./restaurantHtml/restaurant.other14.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/other14.jpg" alt="">
+                            <h3 class="name">排餐 — 紫牛平價牛排</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="other15">
+                    <a href="./restaurantHtml/restaurant.other15.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/other15.jpg" alt="">
+                            <h3 class="name">自助餐 — 帝一味自助餐</h3>
+                        </div>
+                    </a>
+                </div>
+
+
+
+
+
+                <!-- Beverage -->
+                <div class="col-5"></div>
+                <div class="col-*" id="beverage1">
+                    <a href="./restaurantHtml/restaurant.beverage01.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/beverage01.jpg" alt="">
+                            <h3 class="name">十杯</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="beverage2">
+                    <a href="./restaurantHtml/restaurant.beverage02.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/beverage02.jpg" alt="">
+                            <h3 class="name">可不可熟成紅茶</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="beverage3">
+                    <a href="./restaurantHtml/restaurant.beverage03.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/beverage03.jpg" alt="">
+                            <h3 class="name">茶水間茶飲店</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="beverage4">
+                    <a href="./restaurantHtml/restaurant.beverage04.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/beverage04.jpg" alt="">
+                            <h3 class="name">迷客夏 milkshop</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="beverage5">
+                    <a href="./restaurantHtml/restaurant.beverage05.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/beverage05.jpg" alt="">
+                            <h3 class="name">一芳水果茶</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="beverage6">
+                    <a href="./restaurantHtml/restaurant.beverage06.html">
+                        <div class="item">
+                            <img class="image" src="./images/restaurantList/beverage06.jpg" alt="">
+                            <h3 class="name">鴉片粉圓</h3>
+                        </div>
+                    </a>
+                </div>
+                <br>
+                <br>
+                <div class="game-single-preview" id="1">
+                </div>
+                <div class="game-single-preview" id="1">
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="again">
+                    <button id="again">不滿意結果，再次選擇</button>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="restart">
+                    <button id="restart">不好意思，大俠請重新來過</button>
+                </div>
+                <div class="game-single-preview" id="2">
+                </div>
+                <div class="game-single-preview" id="2">
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="again2">
+                    <button id="again">不滿意結果，再次選擇</button>
+                </div>
+                <div class="game-single-preview" id="3">
+                </div>
+                <div class="game-single-preview" id="3">
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="restart2">
+                    <button id="restart">不好意思，大俠請重新來過</button>
+                </div>
+                <div class="game-single-preview" id="4">
+                </div>
+                <div class="game-single-preview" id="4">
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="again3">
+                    <button id="again">不滿意結果，再次選擇</button>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="restart3">
+                    <button id="restart">不好意思，大俠請重新來過</button>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="again4">
+                    <button id="again">不滿意結果，再次選擇</button>
+                </div>
+                <div class="col-5"></div>
+                <div class="col-*" id="restart4">
+                    <button id="restart">不好意思，大俠請重新來過</button>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <div id="show">
+    </div>
+
+
+
+    <!-- Footer section -->
+    <footer class="footer-section">
+        <div class="copyright">&copy; 2019 Khhthomas</div>
+        </div>
+    </footer>
+    <!-- Footer section end -->
+
+
+    <!--====== Javascripts & Jquery ======-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- My Javascript -->
+    <script src="./js/riceSelection.js"></script>
+    <script src="./js/noodleSelection.js"></script>
+    <script src="./js/otherSelection.js"></script>
+    <script src="./js/beverageSelection.js"></script>
+</body>
+
+</html>
